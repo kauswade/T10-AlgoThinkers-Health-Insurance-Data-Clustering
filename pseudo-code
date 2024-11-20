@@ -1,0 +1,25 @@
+Pseudocode 
+1.	Import Necessary Libraries
+	i.	pandas, matplotlib, seaborn, numpy
+	ii.	sklearn.preprocessing- StandardScaler, MinMaxScaler, RobustScaler
+	iii.	sklearn.cluster - KMeans, DBSCAN, 
+	iv.	sklearn.metrics
+	v.	sklearn.mixture - Gaussian Mixture
+2.	Load and Explore Dataset
+	i.	Load the dataset from insurance_data_work.csv
+3.	Data Cleaning and Preprocessing
+	i.	Remove missing data
+	ii.	Drop unnecessary columns
+	iii.	clean the data
+4.	Exploratory Data Analysis
+	i.	summary statistics 
+	ii.	visualisation
+5.	Feature Engineering
+	i.	create new features
+	ii.	normalise or scale the attributes
+6.	Model Building and Training
+	i.	KMeans
+	ii.	DBSCAN
+	iii.	GaussianMixture
+7.	Model Evaluation
+	i.	comparing the silhouette score and David Bouldin Index
