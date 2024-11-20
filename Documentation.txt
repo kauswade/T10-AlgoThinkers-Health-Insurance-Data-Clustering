@@ -1,0 +1,31 @@
+Project Title: Health Insurance Claims Analysis and Clustering
+
+1. Import Libraries:
+The project begins by importing libraries such as NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn for data manipulation, visualization, and modeling.
+
+2. Data Loading and Exploration:
+The dataset (insurance_data_work.csv) is loaded, and its structure is examined through the head, info, and summary statistics. Missing values are also checked in this step.
+
+3. Data Cleaning:
+Data cleaning involves dropping null values and removing unnecessary columns such as index and PatientID. A backup of the cleaned dataset is created for reference.
+
+4. Exploratory Data Analysis (EDA):
+Insights are drawn using histograms to explore age, BMI, and claim distributions. Scatter plots are used to analyze relationships (e.g., age vs. claims), while boxplots compare categorical features like gender and claim amounts.
+
+5. Feature Engineering:
+Features are engineered by binning age and BMI groups. Claim amounts are log-transformed to normalize their distribution, and categorical features like gender and diabetic status are label-encoded.
+
+6. Data Scaling:
+Numerical features such as age, children, and blood pressure are scaled using techniques like StandardScaler and MinMaxScaler for better clustering performance.
+
+7. Clustering Analysis:
+Clustering techniques including K-Means, DBSCAN, and Gaussian Mixture Model (GMM) are applied to group data points. These methods are evaluated using metrics like Silhouette Score and Davies-Bouldin Score. Visualizations such as scatter plots and bar plots provide insights into cluster patterns and feature distributions.
+
+8. Evaluation:
+Each clustering technique is evaluated using metrics like Silhouette Score and Davies-Bouldin Score. Cluster summaries highlight feature distributions across the groups, offering insights into patterns within the data.
+
+Summary:
+This project focuses on analyzing health insurance claims data using EDA, feature engineering, scaling, and clustering techniques (K-Means, DBSCAN, GMM) with robust evaluation metrics
+
+Contributions:
+It was a complete group effort, and everyone contributed as per their understanding.
